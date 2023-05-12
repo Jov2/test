@@ -1,4 +1,4 @@
-name: Test Pull
+name: Test API Call on Pull Action
 on: 
   pull_request:
     branches: [ "test" ]
