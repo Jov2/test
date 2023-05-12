@@ -1,0 +1,18 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Task 20 \u2013 Service Now 2 Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "pipeline_parameters": {
+            "caller_id": "Don Goodliffe"
+        },
+        "pipeline_path": "Task 20 \u2013 Service Now 2",
+        "snaplex_path": "IW-Ground"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}
