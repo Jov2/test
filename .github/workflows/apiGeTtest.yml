@@ -1,0 +1,12 @@
+name: Test Pull
+on: 
+  pull_request:
+    branches: [ "test" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run API call to https://api.publicapis.org/entries
+        run: curl -X GET https://api.publicapis.org/entries
+        
