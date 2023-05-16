@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run API call 
+      - name: Run API call to https://cdn.elastic.snaplogic.com/api/2/5b7548984dd5a8001fb7e9ca/rest/project/import/pipe/slp/aYoProd/apim/CameroonAPI/1
         run: curl -X GET https://cdn.elastic.snaplogic.com/api/2/5b7548984dd5a8001fb7e9ca/rest/project/import/pipe/slp/aYoProd/apim/CameroonAPI/1
         
