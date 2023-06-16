@@ -9,4 +9,4 @@ jobs:
       - name: Run Python script
         env:      
           PATH: ${{secrets.PATH}}
-        run: python env.PATH
+        run: python .github/workflows/example.py
