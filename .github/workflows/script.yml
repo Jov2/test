@@ -7,4 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run Python script
-        run: python .github/workflows/example.py
+        env:      
+          PATH: ${{secrets.PATH}}
+        run: python env.PATH
