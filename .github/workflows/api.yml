@@ -1,0 +1,10 @@
+name: API_call
+on: 
+  workflow_dispatch:
+jobs:
+  api_call:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: API call
+        run: curl -X GET https://restcountries.com/v3.1/alpha/mk
